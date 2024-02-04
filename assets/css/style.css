@@ -41,6 +41,7 @@ h1 {
 .item.dragging {
     opacity: 0.5;
 }
+
 .areas {
     width: 450px;
     display: flex;
@@ -49,9 +50,15 @@ h1 {
 .areas.correct .area {
     border: 2px solid #00FF00;
 }
+
+.areas.wrong .area {
+    border: 2px solid #FF0000;
+}
+
 .area {
     width: 150px;
     height: 150px;
+    margin:5px;
     border: 2px solid #FFF;
     display: flex;
     justify-content: center;
@@ -60,6 +67,15 @@ h1 {
 .hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+.drag_2 {
+    border-radius: 20px;
+}
+
+.drag_3 {
+    border-radius: 100px;
+}
+
 footer {
     margin-top: 20px;
     color: #FFF;

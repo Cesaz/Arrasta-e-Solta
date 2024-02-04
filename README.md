@@ -6,7 +6,9 @@
 
 - Um projeto simples porém muito útil. Arraste os itens para o local correto.
 
-- Projeto não está completo, futuramente sofrerá algumas alterações.
+# **Creditos**
+
+- Meus agradecimentos ao [Professor Bonieky Lacerda](https://www.instagram.com/bonieky/) e a [B7Web](https://lp.b7web.com.br/fullstack).
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -18,4 +20,6 @@
 
 - A simple yet very useful project. Drag the items to the correct location.
 
-- The project is not complete, it will undergo some changes in the future.
+# **Credits**
+
+- My thanks to the [Teacher Bonieky Lacerda](https://www.instagram.com/bonieky/) and [B7Web](https://lp.b7web.com.br/fullstack).
