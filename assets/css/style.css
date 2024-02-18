@@ -51,6 +51,10 @@ h1 {
     border: 2px solid #00FF00;
 }
 
+.areas.al_correct .area {
+    border: 2px solid #f27900;
+}
+
 .areas.wrong .area {
     border: 2px solid #FF0000;
 }

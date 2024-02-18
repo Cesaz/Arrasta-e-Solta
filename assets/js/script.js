@@ -78,11 +78,22 @@ function updateAreas() {
             areas[name] = null;
         }
     });
+
     if(areas.a === '1' && areas.b === '2' && areas.c === '3') {
+        document.querySelector('.areas').classList.remove('al_correct');
         document.querySelector('.areas').classList.remove('wrong');
         document.querySelector('.areas').classList.add('correct');
+    } else if(areas.a === '1' || areas.b === '2' || areas.c === '3') {
+        document.querySelector('.areas').classList.remove('wrong');
+        document.querySelector('.areas').classList.remove('correct');
+        document.querySelector('.areas').classList.add('al_correct');
+    }else if (areas.a === '2' || areas.a === '3' && areas.b === '1' || areas.b === '3' && areas.c === '1' || areas.c === '2') {
+        document.querySelector('.areas').classList.remove('correct');
+        document.querySelector('.areas').classList.remove('al_correct');
+        document.querySelector('.areas').classList.add('wrong');
     } else {
         document.querySelector('.areas').classList.remove('correct');
-        document.querySelector('.areas').classList.add('wrong');
+        document.querySelector('.areas').classList.remove('al_correct');
+        document.querySelector('.areas').classList.remove('wrong');
     }
 }
